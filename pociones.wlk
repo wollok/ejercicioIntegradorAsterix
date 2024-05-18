@@ -1,7 +1,7 @@
 import combatientes.*
 
 class Pocion{
-	var ingredientes = []
+	const ingredientes = []
 	
 	method esTomadaPor(alguien) {
 		ingredientes.forEach{ing=>ing.afectar(alguien)}
@@ -21,7 +21,7 @@ object dulceDeLeche{
 }
 
 class Aceite {
-	var dosis
+	const dosis
 	
 	method afectar(alguien) {
 		alguien.ponderaFuerza(dosis)
@@ -38,7 +38,7 @@ class Zumo inherits Aceite {
 }
 
 class Manojo {
-	var tamanio
+	const tamanio
 	
 	method afectar(alguien){
 		alguien.aumentaFuerza(tamanio)
