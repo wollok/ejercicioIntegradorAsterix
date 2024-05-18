@@ -1,6 +1,6 @@
 # Astérix el galo
  
-[![Build Status](https://travis-ci.org/wollok/ejercicioIntegradorAsterix.svg?branch=master)](https://travis-ci.org/wollok/ejercicioIntegradorAsterix)
+[![Build Status](https://github.com/wollok/ejercicioIntegradorAsterix/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/ejercicioIntegradorAsterix/actions/workflows/ci.yml)
 
 
 ## Ejercicio integrador
